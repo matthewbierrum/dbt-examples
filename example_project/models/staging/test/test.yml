@@ -1,0 +1,8 @@
+sources:
+  - name: test
+    description: Beckys test data
+    database: 'database_name'
+    schema: 'schema_name'
+    tables:
+      - name: reference
+      - name: actual

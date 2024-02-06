@@ -1,0 +1,1 @@
+{{ dbt_utils.union_relations(relations=[source('test', 'reference'),source('test', 'actual')]) }}
